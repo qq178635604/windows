@@ -1,0 +1,5 @@
+<a href='' target=''>内容</a>
+  1)href='连接地址' a.外部全地址:http://...  b.相对地址  同级html文件(接文件名 ./文件名)
+  c.绝对地址./ ../   d.锚点
+  2)target  a.'_self'当前打开   b.'_blank'打开一个新窗口
+<img src='图片地址'/>

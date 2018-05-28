@@ -3,3 +3,28 @@
   c.绝对地址./ ../   d.锚点
   2)target  a.'_self'当前打开   b.'_blank'打开一个新窗口
 <img src='图片地址'/>
+布局
+块元素
+ 块级元素 1)独占一行 2)可以修改大小
+   <div></div> <ul></ul> <li></li> <p></p> <h></h>
+ 行内元素 1)不独占一行 2)不能修改大小
+   <span></span> <a></a>
+列表
+<table></table>
+属性:border边框
+<tr></tr>行 <td></td>列
+html实体
+&lt;小于 &gt;大于 &nbsp;空格
+<form></form>表单 可进行post请求(默认为get)
+<form action='1.html' method='post'> action表示链接地址   method表示提交方式
+  <input type='text' name='user' value='123'> name为控件 value为值,执行get请求时将控件与值组成键值对提交
+  <input type='submit'>提交按钮
+</form>
+<a></a>可进行get请求
+<input></input>
+type: text(默认) password(密码类型) radio(单选用name区分) number(输入数字) submit(提交) checkbox(多选) file文件,
+提交文件 button按钮
+placholder='提示信息'   required必填  checked默认选择 disabled禁用(不能使用,提交) readonly只读(只能看不能修改,可以提交)
+<select><option></option></select>
+  selected表示默认选择
+<textarea></textarea>多行文本框

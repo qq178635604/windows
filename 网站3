@@ -6,4 +6,9 @@ overflow:hidden;
 white-space:nowrap;
 text-overflow:ellipsis;
 float浮动:
+元素处于半脱离文本流状态;不影响元素大小,但影响元素内容排列
+行内元素处于浮动状态时可进行设置大小
+浮动元素从左向右,从上向下.左上角对齐
+浮动元素在当前父元素中浮动
+clear:both取消浮动
 

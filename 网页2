@@ -21,4 +21,4 @@ fixed固定定位:相对当前窗口
 absolute绝对定位
 relative相对定位 元素设置相对定位,对本身无影响
 opacity:透明度
-
+overflow:hidden溢出隐藏

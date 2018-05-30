@@ -1,0 +1,61 @@
+JS由三部分组成:
+  ECMAScript:也叫解释器,充当翻译角色,是JS的核心部分
+  DOM:文档对象型.赋予了JS操作HTML能力,即document操作
+  BOM:浏览器对象型.赋予了JS操作浏览器能力,即window操作
+变量命名规则:
+  不能以特殊符号命名,包含数字、字母、下划线
+  不能以数字开头
+  不能以关键词命名
+注释:
+  //单行注释 /*多行注释*/
+++a与a++
+a=5
+b=a++
+	a=6
+	b=5先赋值再运算
+数组 array
+方法：
+	obj.length()长度
+	obj.trim()取消两边空格
+	obj.trimLeft()
+	obj.trimRight()
+	obj.charAt(n)返回字符串第n个字符
+	obj.slice(start,end)切片
+	obj.split()分割
+	obj.replace()替换
+	obj.push()尾部追加
+	obj.join()将元素拼接起来构成一个字符串
+序列化:
+	JSON.stringify(obj) //序列化
+	JSON.parse(str)     //反序列化
+正则:
+	操作字符串
+	.所有的 \d一个数字 *多个
+==   比较值相等
+!=   不等于
+===  比较类型和值相等
+!==  不等于
+&&   且
+||   或
+条件语句:
+	if (条件){
+	}else if(条件){
+	}else{
+	}
+循环语句:
+	switch(变量){
+	case '1':
+		age=123;
+		break; //跳出循环
+	case '2':
+		age=142;
+		continue;//跳出本次循环
+	default:
+		age=777;
+		}
+   for循环:
+   	i表示的为name中的索引
+	for(var i=0;i<names.length;i++){
+	console.log(i);
+	}
+

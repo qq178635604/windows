@@ -17,7 +17,14 @@ function 函数名 (参数){
 	直接查找: a.id:docutment.getElementById('id名') //返回元素
 		  b.class:document.getElementsByClass('class名')
 		  c.name:document.getElementByClassName('name属性') //返回一个元素列表
+		  	var item=document.getElementByClassName('a')
+				item[0].innerHTML=1//使用时必须加索引
+				item[0].getAttribute('href',属性值) //获取属性,设置属性
+				       .removeAttribute() //删除属性
 		  d.标签:document.getElementsByTagName(标签)
 inner.HTML 获得标签内的内容
 inner.text 只获取文本内容
 inner.val  获取值
+元素的属性:
+	a.获取属性值 b.设置属性值
+

@@ -1,0 +1,41 @@
+innerHTML与innerText区别:
+HTML取标签内所有元素
+Text取标签内的所有文本元素
+设置新属性:
+	set.Attribute('属性名','新属性')
+	set.Attribute('属性名','值')
+添加属性:
+	classList.add('添加新类')
+删除类:
+	classList.remove('删除类')
+父节点标签元素:
+	parentElement
+所有子标签:
+	chirdren
+第一个子标签:
+	firstElementchild
+最后一个子标签:
+	lastElementchild
+上一个兄弟标签:
+	previousElementSibling
+下一个兄弟标签:
+	nextElementSibling
+<div id="my_div" onclick="change_p(this)">
+      function change_p(obj){
+         console.log(obj)
+      }
+滚动事件：(滚动到指定高度显示)
+<div id="return_top scroll=change_scrill()">
+function change_scrill(){
+	scoll_height=document.documentElement.scrollTop //滚动高度
+	if (scroll_height>100){
+	docutment.getElementById('return_top').style.display='block'
+	}else{
+	doctument.getElmentById('return_top').syle.display="none"
+	}
+ }
+定时器:
+单次定时器:
+setTimeout(处理函数,时间)
+clearTimeout清楚单次计时器
+

@@ -22,4 +22,36 @@ dom选择器:
 	$('p').before('<b>nick</b>') //每个p元素外部前面加入同级内容
 显示:
 	$('#log').show('slow') //缓慢显示
-
+二次选择:
+	:first
+	:last
+	:eq()
+	:gt()
+	:lt()
+	:checked
+	:selected
+	:has()
+	$('[属性=值]
+	   [属性!=值]
+	   [属性^=开始值]
+	   [属性$=结尾值]')
+简介选择:
+	兄弟:next()下一个 nextALL()下所有的
+	上prev()
+	父类:parent() 所有祖先元素:parents()
+	子元素:children() 所有子元素find()
+操作:
+	$(元素).html('新内容')
+	$(元素).text()
+	$(元素).val()
+属性操作:
+	$(元素).attr('属性')
+	$(元素).attr('属性','值')
+	$(元素)removeAttr('属性')
+类操作:
+	$(元素).addClass('类名')
+	$(元素).removeClass('类名')
+	$(元素).toggleClass('类名')
+绑定事件:
+	$('p')bind('click',function(){alert($(this).text())})
+onsubmit()拦截
